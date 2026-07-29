@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custom-Made Curtains for Your Home | T&J Curtain Studio</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Georgia, 'Times New Roman', serif; color: #2b2420; background: #faf7f2; line-height: 1.5; }
+  .hero { max-width: 760px; margin: 0 auto; padding: 48px 24px 32px; text-align: center; }
+  h1 { font-size: 34px; margin-bottom: 16px; color: #3d3229; }
+  .sub { font-size: 18px; color: #5a5048; max-width: 560px; margin: 0 auto 28px; }
+  .cta-btn {
+    display: inline-block; background: #8a6d4b; color: #fff; text-decoration: none;
+    font-family: Arial, sans-serif; font-size: 17px; font-weight: 600;
+    padding: 16px 36px; border-radius: 4px; letter-spacing: 0.3px;
+  }
+  .cta-btn:hover { background: #715a3d; }
+  .photo { max-width: 760px; margin: 32px auto; padding: 0 24px; }
+  .photo img { width: 100%; border-radius: 6px; display: block; }
+  .form-section { max-width: 480px; margin: 40px auto; padding: 32px 24px; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+  .form-section h2 { font-family: Arial, sans-serif; font-size: 20px; margin-bottom: 20px; text-align: center; color: #3d3229; }
+  label { font-family: Arial, sans-serif; font-size: 14px; display: block; margin-bottom: 6px; color: #5a5048; }
+  input, select, textarea {
+    width: 100%; padding: 11px 12px; margin-bottom: 16px; border: 1px solid #d8d0c4;
+    border-radius: 4px; font-family: Arial, sans-serif; font-size: 15px;
+  }
+  .submit-btn {
+    width: 100%; background: #8a6d4b; color: #fff; border: none; padding: 14px;
+    border-radius: 4px; font-size: 16px; font-weight: 600; font-family: Arial, sans-serif; cursor: pointer;
+  }
+  .submit-btn:hover { background: #715a3d; }
+  footer { text-align: center; padding: 24px; font-family: Arial, sans-serif; font-size: 13px; color: #999; }
+</style>
+</head>
+<body>
+
+<!-- ====== HERO / FIRST SCREEN ====== -->
+<div class="hero">
+  <h1>Custom-Made Curtains for Your Home</h1>
+  <p class="sub">Free in-home consultation, precise measuring and premium fabric selection in Brunswick, Strongsville, Medina and Parma.</p>
+  <a href="#lead-form" class="cta-btn">Request a Free Consultation</a>
+</div>
+
+<!-- ====== BEST COMPLETED WORK PHOTO ====== -->
+<div class="photo">
+  <img src="curtains-blue-living-room.jpg" alt="Custom blue curtains with sheers in a modern living room">
+</div>
+
+<!-- ====== LEAD FORM: 5 FIELDS ONLY ====== -->
+<div class="form-section" id="lead-form">
+  <h2>Get Your Free Consultation</h2>
+  <form action="#" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="city">City</label>
+    <input type="text" id="city" name="city" placeholder="Brunswick, Strongsville, Medina, Parma..." required>
+
+    <label for="type">Type of Curtains</label>
+    <select id="type" name="type" required>
+      <option value="">Select...</option>
+      <option value="curtains">Curtains / Drapes</option>
+      <option value="roman">Roman Shades</option>
+      <option value="roller">Roller Shades / Blinds</option>
+      <option value="not_sure">Not sure yet</option>
+    </select>
+
+    <label for="notes">Notes (optional)</label>
+    <textarea id="notes" name="notes" rows="3"></textarea>
+
+    <button type="submit" class="submit-btn">Request a Free Consultation</button>
+  </form>
+</div>
+
+<footer>T&J Curtain Studio · Brunswick, OH · tjcurtain.com</footer>
+
+<!-- ====== GOOGLE ADS CONVERSION TAG (paste your existing tag here, same one used site-wide) ====== -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script> -->
+
+</body>
+</html>
