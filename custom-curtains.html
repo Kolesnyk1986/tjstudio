@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18275784849"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18275784849');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Custom-Made Curtains for Your Home | T&J Curtain Studio</title>
@@ -39,7 +47,7 @@
 <div class="hero">
   <h1>Custom-Made Curtains for Your Home</h1>
   <p class="sub">Free in-home consultation, precise measuring and premium fabric selection in Brunswick, Strongsville, Medina and Parma.</p>
-  <a href="#lead-form" class="cta-btn">Request a Free Consultation</a>
+  <a href="#lead-form" class="cta-btn">Get a Free Consultation</a>
 </div>
 
 <!-- ====== BEST COMPLETED WORK PHOTO ====== -->
@@ -47,39 +55,23 @@
   <img src="curtains-blue-living-room.jpg" alt="Custom blue curtains with sheers in a modern living room">
 </div>
 
-<!-- ====== LEAD FORM: 5 FIELDS ONLY ====== -->
-<div class="form-section" id="lead-form">
+<!-- ====== LEAD ACTION: mailto + conversion tracking (same pattern as index.html) ====== -->
+<div class="form-section" id="lead-form" style="text-align:center;">
   <h2>Get Your Free Consultation</h2>
-  <form action="#" method="POST">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" required>
-
-    <label for="phone">Phone Number</label>
-    <input type="tel" id="phone" name="phone" required>
-
-    <label for="city">City</label>
-    <input type="text" id="city" name="city" placeholder="Brunswick, Strongsville, Medina, Parma..." required>
-
-    <label for="type">Type of Curtains</label>
-    <select id="type" name="type" required>
-      <option value="">Select...</option>
-      <option value="curtains">Curtains / Drapes</option>
-      <option value="roman">Roman Shades</option>
-      <option value="roller">Roller Shades / Blinds</option>
-      <option value="not_sure">Not sure yet</option>
-    </select>
-
-    <label for="notes">Notes (optional)</label>
-    <textarea id="notes" name="notes" rows="3"></textarea>
-
-    <button type="submit" class="submit-btn">Request a Free Consultation</button>
-  </form>
+  <p style="font-family: Arial, sans-serif; color:#5a5048; font-size:14px; margin-bottom:20px;">
+    Tap below to send us your details by email — we'll get back to you fast.
+  </p>
+  <a href="mailto:tjstudiocurtain@gmail.com?subject=Free%20Consultation%20Request%20-%20Custom%20Curtains&body=Hi%20T%26J%20Curtain%20Studio%2C%0A%0AI%27d%20like%20to%20book%20a%20free%20curtain%20consultation.%0A%0AName%3A%20%0APhone%3A%20%0ACity%2FArea%3A%20%0ARoom%20type%3A%20%0AAdditional%20notes%3A%20%0A%0AThank%20you!"
+     onclick="gtag('event', 'conversion', {'send_to': 'AW-18275784849/fE8ACO2wks0cEJGxyYpE'}); return true;"
+     class="submit-btn" style="text-decoration:none; display:inline-block;">
+    ✉ Book Free Consultation
+  </a>
+  <p style="color: #999; margin-top: 20px; font-size: 14px; font-family: Arial, sans-serif;">
+    Or call: <a href="tel:+12163002401" style="color:#8a6d4b; text-decoration:none;">(216) 300-2401</a>
+  </p>
 </div>
 
 <footer>T&J Curtain Studio · Brunswick, OH · tjcurtain.com</footer>
-
-<!-- ====== GOOGLE ADS CONVERSION TAG (paste your existing tag here, same one used site-wide) ====== -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script> -->
 
 </body>
 </html>
